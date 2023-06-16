@@ -5,7 +5,6 @@ import View from 'ol/View';
 import TileLayer from 'ol/layer/Tile';
 import OSM from 'ol/source/OSM';
 import { fromLonLat } from 'ol/proj';
-import Geocoder from 'ol-geocoder';
 import 'ol-geocoder/dist/ol-geocoder.min.css';
 import axios from 'axios';
 import { Feature } from 'ol';
